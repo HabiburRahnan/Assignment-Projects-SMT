@@ -26,7 +26,7 @@ function BottomSection() {
 
             </div>
             <div className='lg:h-60 md:w-1/2 p-auto rounded-md shadow-xl overflow-hidden relative'>
-                <img className='absolute inset-0 h-full w-full object-cover' src="https://i.ibb.co.com/LxS3Qbw/operation.webp" alt="" />
+                <img className='absolute inset-0 h-full w-full object-cover' src="https://i.ibb.co.com/S6rVYCJ/empower-commitment.webp" alt="" />
                 <div className='absolute inset-0 bg-black bg-opacity-75'></div>
                 <div className='flex h-full items-center justify-center relative py-2'>
                     <div className="w-full text-white p-10">

@@ -8,7 +8,8 @@ function Navbar() {
         <>
             <li className='hover:text-black hover:bg-white text-white  rounded ' ><Link to="/">Home</Link></li>
             <li className='hover:text-black hover:bg-white  text-white rounded ' ><Link to="/">Capabalitise</Link></li>
-            <li className='hover:text-black hover:bg-white  text-white rounded ' ><Link to="/">Abouts US</Link></li>
+            <li className='hover:text-black hover:bg-white  text-white rounded ' ><a href="#about-us">Abouts US</a></li>
+            <li className='hover:text-black hover:bg-white  text-white rounded ' ><a href="#service">Service</a></li>
             <li className='hover:text-black hover:bg-white  text-white rounded ' ><Link to="/">Careers</Link></li>
 
 
@@ -57,7 +58,7 @@ function Navbar() {
                 </div>
                 <div className="navbar-end">
 
-                    <Link to="/" className="p-2 text-xl font-serif bg-[#FF3529] rounded text-white hover:text-white hover:bg-[#FF3529] border-none flex justify-center items-center">Contact US</Link>
+                    <a href="#contact" className="p-2 text-xl font-serif bg-[#FF3529] rounded text-white hover:text-white hover:bg-[#FF3529] border-none flex justify-center items-center">Contact US</a>
                 </div>
             </div>
         </div>

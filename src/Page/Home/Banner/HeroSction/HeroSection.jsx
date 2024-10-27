@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function HeroSection() {
     return (
-        <div className='container mx-auto'>
+        <div id='about-us' className='container mx-auto'>
 
             <div className="flex flex-col lg:flex-row items-center bg-[#F5F5F5] p-8 gap-5 lg:p-16 space-y-8 lg:space-y-0">
                 {/* Image Section */}

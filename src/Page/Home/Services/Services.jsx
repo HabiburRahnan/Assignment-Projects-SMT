@@ -11,13 +11,13 @@ function Services() {
     }, [])
     return (
         <div>
-            <div className='flex justify-center items-center my-5'>
+            <div id='service' className='flex justify-center items-center my-5'>
                 <Title name={"SERVICES"}></Title>
             </div>
             <h1 className='text-2xl font-sans font-semibold text-center '>SPARTAN SOLUTIONS</h1>
             <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-auto md:px-40 gap-5 p-10'>
                 {items?.map(item =>
-                    <div className="card bg-base-100  md:w-full mx-auto shadow-2xl">
+                    <div className="card bg-white  md:w-full mx-auto shadow-2xl">
                         <figure className="pt-5">
                             <img
                                 src={item?.image}

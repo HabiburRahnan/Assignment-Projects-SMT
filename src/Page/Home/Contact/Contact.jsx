@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
     return (
         <div>
-            <div className=' p-auto rounded-md shadow-xl overflow-hidden relative'>
+            <div id='contact' className=' p-auto rounded-md shadow-xl overflow-hidden relative'>
                 <img className='absolute inset-0 h-full w-full object-fill bg-cover' src="https://i.ibb.co.com/zGvCdC0/cta-banner.webp" alt="" />
                 <div className='absolute inset-0 bg-black bg-opacity-75'></div>
                 <div className='container mx-auto flex h-full items-center justify-center relative py-2'>

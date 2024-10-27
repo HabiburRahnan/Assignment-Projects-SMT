@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom'
 function Navbar() {
     const navList =
         <>
-            <li className='hover:text-[#FF3529] text-white  rounded ' ><Link to="/">Home</Link></li>
-            <li className='hover:text-[#FF3529] text-white rounded ' ><Link to="/">Capabalitise</Link></li>
-            <li className='hover:text-[#FF3529] text-white rounded ' ><Link to="/">Abouts US</Link></li>
-            <li className='hover:text-[#FF3529] text-white rounded ' ><Link to="/">Careers</Link></li>
+            <li className='hover:text-black hover:bg-white text-white  rounded ' ><Link to="/">Home</Link></li>
+            <li className='hover:text-black hover:bg-white  text-white rounded ' ><Link to="/">Capabalitise</Link></li>
+            <li className='hover:text-black hover:bg-white  text-white rounded ' ><Link to="/">Abouts US</Link></li>
+            <li className='hover:text-black hover:bg-white  text-white rounded ' ><Link to="/">Careers</Link></li>
 
 
 
@@ -46,7 +46,7 @@ function Navbar() {
                         </div>
                     </div>
                     <div className='text-3xl  justify-center hidden lg:block'><Link className=""><img src='https://i.ibb.co.com/yX6m854/nav-logo-1.png' alt="" /></Link></div>
-                    
+
                 </div>
                 <div className='text-3xl flex justify-center mr-9 lg:hidden'><Link className=""><img src='https://i.ibb.co.com/yX6m854/nav-logo-1.png' alt="" /></Link></div>
                 {/* lg menu */}

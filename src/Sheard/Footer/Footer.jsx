@@ -1,3 +1,5 @@
+import { FaFacebook, FaInstagram } from "react-icons/fa"
+import { FaLinkedin } from "react-icons/fa6"
 import { Link } from "react-router-dom"
 
 function Footer() {
@@ -29,6 +31,12 @@ function Footer() {
           </nav>
           <nav>
             <h6 className="footer-title text-[#FF2A1E] font-bold text-lg">Follow Us On:</h6>
+            <div className="flex gap-3 text-2xl">
+              <FaFacebook />
+              <FaLinkedin />
+              <FaInstagram />
+            </div>
+
 
           </nav>
         </footer>
@@ -39,7 +47,7 @@ function Footer() {
             </aside>
           </Link>
           <nav className="md:place-self-center md:justify-self-end">
-            <div className="grid grid-flow-col gap-4">
+            <div className="flex flex-wrap justify-center items-center gap-2">
               <Link className="link link-hover">Privacy policy</Link>
               <Link className="link link-hover">Terms of Services</Link>
               <Link className="link link-hover">Site by <span className="text-blue-600 font-semibold">Blue Collar Builds</span></Link>

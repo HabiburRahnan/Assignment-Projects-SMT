@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "IT & Cybersecurity",
+        "image": "https://i.ibb.co.com/n6MmG2R/cybersecurity.png",
+        "description": "Harness the power of cutting-edge techology with our robust IT and cybersecurity services."
+    },
+    {
+        "id": 2,
+        "title": "Software Development",
+        "image": "https://i.ibb.co.com/xCXDDg8/download.png",
+        "description": "Harness the power of cutting-edge techology with our robust IT and cybersecurity services."
+    },
+    {
+        "id": 3,
+        "title": "Facilities Support",
+        "image": "https://i.ibb.co.com/PMvfTVF/assembly.jpg",
+        "description": "Harness the power of cutting-edge techology with our robust IT and cybersecurity services."
+    },
+    {
+        "id": 4,
+        "title": "Program Management",
+        "image": "https://i.ibb.co.com/dgmd3Cj/project-management.jpg",
+        "description": "Harness the power of cutting-edge techology with our robust IT and cybersecurity services."
+    },
+    {
+        "id": 5,
+        "title": "Logistics Expertise",
+        "image": "https://i.ibb.co.com/QcL8thd/logistic.jpg",
+        "description": "Harness the power of cutting-edge techology with our robust IT and cybersecurity services."
+    },
+    {
+        "id": 6,
+        "title": "Strategic Consulting",
+        "image": "https://i.ibb.co.com/tYs2vP1/strategic.jpg",
+        "description": "Harness the power of cutting-edge techology with our robust IT and cybersecurity services."
+    }
+]

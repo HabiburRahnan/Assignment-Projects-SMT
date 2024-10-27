@@ -1,5 +1,6 @@
 import React from 'react'
 import Title from '../../../../Components/Title'
+import { Link } from 'react-router-dom'
 
 function HeroSection() {
     return (
@@ -30,7 +31,7 @@ function HeroSection() {
                     <p className="text-gray-600 text-sm">
                         Welcome to Spartan Solutions, where quality meets innovation. We are dedicated to delivering lean and impactful solutions that contribute to our nation’s continuous improvement. Our core values prioritize excellence, efficiency, and meaningful impact, shaping solutions that stand the test of time.As we navigate towards the future, our objective is to guide the nation towards excellence and play a pivotal role in shaping a brighter tomorrow. Join us in our journey to redefine what is possible and build a better future for all.
                         Spartan Solutions: Crafting Excellence, Shaping the Future.</p>
-                    <a href="#more" className="text-red-600 hover:underline font-semibold">Learn more →</a>
+                    <Link to="/" className="text-red-600 hover:underline font-semibold">Learn more →</Link>
                 </div>
             </div>
 

@@ -1,5 +1,7 @@
 import Banner from "./Banner/Banner"
 import HeroSection from "./Banner/HeroSction/HeroSection"
+import Benefits from "./Benefits/Benefits"
+import Services from "./Services/Services"
 
 function Home() {
   return (
@@ -7,6 +9,8 @@ function Home() {
       <Banner></Banner>
       <div className="bg-[#F5F5F5]">
         <HeroSection></HeroSection>
+        <Services></Services>
+        <Benefits></Benefits>
       </div>
     </div>
   )

@@ -6,9 +6,9 @@ function OthrBenefits() {
     return (
         <div>
             <div className='container mx-auto p-auto py-10'>
-                <div className="flex flex-col md:flex-row items-center justify-center gap-5 bg-gray-100 ">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-5 bg-gray-100 mx-2">
 
-                    <div className="w-1/2 flex flex-col md:w-2/3 items-start justify-center bg-gray-100 p-6">
+                    <div className=" flex flex-col md:w-2/3 items-start justify-center bg-gray-100 p-6">
                         {/* Section Title */}
                         <Title name="OTHER BENEFITS"></Title>
                         {/* Section Subtitle */}
@@ -51,7 +51,10 @@ function OthrBenefits() {
                         />
                     </div>
                 </div>
-                <BottomSection></BottomSection>
+                <div className='mx-2'>
+                    <BottomSection></BottomSection>
+
+                </div>
             </div>
         </div>
     )

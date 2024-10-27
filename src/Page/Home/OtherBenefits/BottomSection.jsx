@@ -2,12 +2,12 @@ import React from 'react'
 
 function BottomSection() {
     return (
-        <div className='container mx-auto flex justify-center items-center gap-5 my-5'>
-            <div className='h-56 w-1/2 p-auto rounded-md shadow-xl overflow-hidden relative'>
-                <img className='absolute inset-0 h-full w-full object-cover' src="https://i.ibb.co.com/LxS3Qbw/operation.webp" alt="" />
+        <div className='container mx-auto grid md:flex items-center gap-5 my-5'>
+            <div className='lg:h-60 md:w-1/2 p-auto rounded-md shadow-xl overflow-hidden relative '>
+                <img className='absolute inset-0 h-full w-full object-cover ' src="https://i.ibb.co.com/LxS3Qbw/operation.webp" alt="" />
                 <div className='absolute inset-0 bg-gray-900 bg-opacity-75'></div>
-                <div className='flex h-full items-center justify-center relative'>
-                    <div className="w-full text-white p-10">
+                <div className='flex h-full items-center justify-center relative py-2 '>
+                    <div className="w-full text-white p-10 ">
                         <h2 className="text-2xl font-bold mb-4">
                             Aligning <span className="text-red-500">operations</span> with your
                             requirements
@@ -25,10 +25,10 @@ function BottomSection() {
                 </div>
 
             </div>
-            <div className='h-56 w-1/2 p-auto rounded-md shadow-xl overflow-hidden relative'>
+            <div className='lg:h-60 md:w-1/2 p-auto rounded-md shadow-xl overflow-hidden relative'>
                 <img className='absolute inset-0 h-full w-full object-cover' src="https://i.ibb.co.com/LxS3Qbw/operation.webp" alt="" />
                 <div className='absolute inset-0 bg-gray-900 bg-opacity-75'></div>
-                <div className='flex h-full items-center justify-center relative'>
+                <div className='flex h-full items-center justify-center relative py-2'>
                     <div className="w-full text-white p-10">
                         <h2 className="text-2xl font-bold mb-4">
                             Standing <span className="text-red-500">strong</span> with our

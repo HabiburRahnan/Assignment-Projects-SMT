@@ -34,23 +34,6 @@ function HeroSection() {
                     <Link to="/" className="text-red-600 hover:underline font-semibold">Learn more →</Link>
                 </div>
             </div>
-
-
-
-            {/* // <div className='bg-[#F5F5F5]'>
-        //     <div className='container mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
-        //         <div>
-        //             <div>
-        //                 <img src="https://i.ibb.co.com/Tmc8s8c/about-image.webp" alt="" />
-        //                 <img src="https://i.ibb.co.com/djX35dD/about-us-image.webp" alt="" />
-        //             </div>
-        //         </div>
-        //         <div>
-        //             <Title name={"ABOUT US"}></Title>
-        //             <h1>Quality Assurance Beyond Standards Elevating Defense Excellence</h1>
-        //         </div>
-        //     </div>
-        // </div> */}
         </div>
     )
 }

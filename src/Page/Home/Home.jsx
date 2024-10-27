@@ -1,6 +1,7 @@
 import Banner from "./Banner/Banner"
 import HeroSection from "./Banner/HeroSction/HeroSection"
 import Benefits from "./Benefits/Benefits"
+import Process from "./Process/Process"
 import Services from "./Services/Services"
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
         <HeroSection></HeroSection>
         <Services></Services>
         <Benefits></Benefits>
+        <Process></Process>
       </div>
     </div>
   )
